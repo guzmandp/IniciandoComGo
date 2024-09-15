@@ -5,10 +5,10 @@ import (
 )
 
 type Car struct {
-	Brand string
-	Plate string
-	Color string
-	Year  int
+	Brand string `json: "brand`
+	Plate string `Json: "plate"`
+	Color string `Json: "color"`
+	Year  int    `Json: "year"`
 }
 
 func (c *Car) Run() {

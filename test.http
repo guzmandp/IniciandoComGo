@@ -1,0 +1,9 @@
+POST http://localhost:7171/car
+Content-Type: application/json
+
+{
+    "brand": "lamborgini",
+    "plate": "IANES-2010",
+    "color": "White",
+    "year": 2025
+}
